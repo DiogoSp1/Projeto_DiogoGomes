@@ -1,14 +1,23 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Red Hat Mono', monospace, sans-serif;
+}
+
 .header{
     background-color: #000407;
     color: #3289CD;
+    border-bottom: 3px solid;
 }
-.margem{
+
+.container{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: flex;
 }
-.header .margem {
+
+.header .container {
     display: flex;
     justify-content: space-between;
 }
@@ -18,5 +27,93 @@
     list-style: none;
     width: 400px;
     justify-content: space-between;
-    margin-top: 3%;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E3B062;
+}
+.banner {
+    background-image: url('Imagens/Agua_viva.png');
+    background-size: cover;
+}
+.banner .container {
+    height: 550px;
+    color: white;
+    display: flex;
+    align-items: center;    
+} 
+.banner p {
+    font-size: 36px;
+    width: 280px;
+    margin-left: 20%;
+}
+
+.footer {
+    background-color: #3289CD;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.agora {
+    font-weight: bold;
+}
+
+.card {
+    background-color: #E5E5E5;
+    color: #E6005A;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.banner .container.login {
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 24px;
+}
+
+form label{
+    margin-top: 8px;
+}
+
+form input {
+    margin-top: 8px;
+    outline: 3px solid #3289CD;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 16px;
+    background-color: #E6005A;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
 }
