@@ -58,7 +58,7 @@ body {
 .footer .container {
     display: flex;
     height: 150px;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
@@ -116,4 +116,48 @@ form button {
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.meio_Conteudo {
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+
+.meio_Conteudo .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.imagens_Meio {
+    background-size: auto;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+}
+
+.valores .imagens_Meio {
+    background-image: url(Imagens/Planta.png);
+}
+
+.missao .imagens_Meio {
+    background-image: url(Imagens/Planeta.png);
+}
+
+.visao .imagens_Meio {
+    background-image: url(Imagens/Lampada.png);
+}
+
+.misao {
+    width: 200px;
+    height: 100px;
+}
+
+.titulo_meio {
+    color: #E6005A;
 }
