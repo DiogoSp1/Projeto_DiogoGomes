@@ -161,3 +161,11 @@ form button {
 .titulo_meio {
     color: #E6005A;
 }
+
+.container.cadastro{
+    justify-content: center;
+}
+
+.container.cadastro .card{
+    height: 412px;
+}
